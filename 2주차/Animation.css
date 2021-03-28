@@ -1,0 +1,19 @@
+#ex1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    animation-name: ho;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes ho{
+    from{
+        width: 100px;
+    }
+    to{
+        width: 300px;
+    }
+}

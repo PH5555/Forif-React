@@ -1,0 +1,38 @@
+#ex1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+
+#ex1:hover{
+    width: 100%;
+    background-color: brown;
+    transition: all ease 3s 0s;
+}
+
+#ex2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+
+#ex2:hover{
+    width: 100%;
+    background-color: brown;
+    transition: all linear 3s 0s;
+}
+
+#ex3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+
+#ex3:hover{
+    width: 100%;
+    background-color: brown;
+    transition: all ease-in-out 3s 0s;
+}

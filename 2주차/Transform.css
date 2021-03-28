@@ -1,0 +1,22 @@
+#ex1{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+}
+
+#ex2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    transform: skew(0deg, 20deg) translateX(150px);
+    transform-origin: bottom left;
+}
+
+#ex3{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    transform: rotateY(50deg) translateX(700px);
+}
