@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ClockTimer.CSS">
+    <script defer src="./App.js"></script>
+    <title>Clock and Timer</title>
+</head>
+<body>
+    <div id="menu">
+        <select id="selector">
+            <option value="">대한민국, 서울</option>
+            <option value="">미국, 뉴욕</option>
+            <option value="">대한민국, 서울</option>
+        </select>
+
+        <div id="timer">
+            <div id="timer_setting">
+                <div id="timer_input">
+                    <p><input type="number" id="minute"> 분</p>
+                    <p><input type="number" id="second"> 초</p>
+                </div>
+              
+                <div id="time_select">
+                    <button>5분</button>
+                    <button>10분</button>
+                    <button>15분</button>
+                </div>
+            </div>
+            <button id="btn_start">시작!</button>
+        </div>
+        
+    </div>
+
+    <div id="clock">
+        <img src="../Forif_hw3/images/clock.png" alt="">
+    
+        <div id="hand">
+            <div id="h"></div>
+            <div id="m"></div>
+            <div id="s"></div>
+        </div>
+    </div>
+</body>
+</html>
